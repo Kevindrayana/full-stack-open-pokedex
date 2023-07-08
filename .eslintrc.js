@@ -1,6 +1,6 @@
 module.exports = {
   "env": {
-    "browser": true,
+    "node": true,
     "es6": true,
     "jest/globals": true
   },
@@ -29,11 +29,11 @@ module.exports = {
     ],
     "quotes": [
       "error",
-      "single"
+      "double"
     ],
     "semi": [
       "error",
-      "never"
+      "always"
     ],
     "eqeqeq": "error",
     "no-trailing-spaces": "error",
@@ -44,6 +44,7 @@ module.exports = {
       "error", { "before": true, "after": true }
     ],
     "no-console": "error",
-    "react/prop-types": 0
+    "react/prop-types": 0,
+    'no-console': 'off',
   }
 }
